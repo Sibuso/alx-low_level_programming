@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ [ -z "$CFILE" ] && { echo "CFILE is not set. Please export to the C file name."; exit 1; } || gcc -E "$CFILE" -o c
